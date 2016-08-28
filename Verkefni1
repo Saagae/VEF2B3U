@@ -1,58 +1,35 @@
 1. Hvað er ECMAScript? 
-
-ECMAScript er standard fyrir scripting language sem JavaScript er byggt á. 
-
+ ECMAScript er staðall fyrir scripting language sem JavaScript er byggt á. 
  
-
 2. Afhverju að nota === fremur en == í JavaScript? 
-
-Vegna þess að == gerir type coercion (t.d. 5 == "5" //true eða false == 0 //true) en === gerir það ekki (t.d. 5 === "5" //false eða true === 1 //false). 
-
- 
+ Vegna þess að == gerir type coercion (t.d. 5 == "5" //true eða false == 0 //true) en === gerir það ekki (t.d. 5 === "5" //false eða true === 1 //false). 
 
 3. Hvað kemur út og hvaða type (sjá typeof operator)? 
+ a) var result = 5 * “5”; 
+  25, number. 
 
-a) var result = 5 * “5”; 
-
-25, number. 
-
-b) var result = 5 + “5”; 
-
-55, string. 
-
+ b) var result = 5 + “5”; 
+  55, string. 
  
 4. Hvað eru margar global breytur í kóðanum? 
+ Tvær, text og sum. 
 
-Tvær, text og sum. 
+  5. Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir. 
+  A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). 
 
+ 6. Hver er munurinn á null og undefined í notkun? 
+  Undefined þýðir að það sé búið að declare-a variable en ekki gefa henni value. Null er valur sem er notað til þess að sýna að það sé ekkert object value. Typeof undefiner er undefined en typeof null er object.  
+  Null == undefiner //true en null === undefined //false. 
+
+ 8. Hver er munurinn á for of, forEach og for in lykkju. Komdu með dæmi? 
+  forEach fer í gegnum stök í array. For of??? For in??? 
  
-5. Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir. 
-
-A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). 
-
- 
-6. Hver er munurinn á null og undefined í notkun? 
-
-Undefined þýðir að það sé búið að declare-a variable en ekki gefa henni value. Null er valur sem er notað til þess að sýna að það sé ekkert object value. Typeof undefiner er undefined en typeof null er object.  
-
-Null == undefiner //true en null === undefined //false. 
-
- 
-8. Hver er munurinn á for of, forEach og for in lykkju. Komdu með dæmi? 
-
-forEach fer í gegnum stök í array. For of??? For in??? 
- 
-
 9. Hvað er NaN og afhverju er eftirfarandi false? console.log(NaN == NaN); 
-
-NaN stendur fyrir "Not a Number" og segir að svarið sé ekki lögleg tala. 
-
-NaN hefur ekkert talnagildi þannig það er ekki hægt að bera það saman við neitt. 
+ NaN stendur fyrir "Not a Number" og segir að svarið sé ekki lögleg tala. 
+ NaN hefur ekkert talnagildi þannig það er ekki hægt að bera það saman við neitt. 
  
-
 10. Hvað birtist (úttak)? Útskýrðu hversvegna. 
 console.log(null || "user") 
-
-User birtist vegna þess að || velur ekki eitthvað sem er ekki hægt að breyta í true . Ef báðir möguleikar gætu verið true myndi hann velja þann vinstri ("user1" || "user2" //user1). 
+ User birtist vegna þess að || velur ekki eitthvað sem er ekki hægt að breyta í true . Ef báðir möguleikar gætu verið true myndi hann velja þann vinstri ("user1" || "user2" //user1). 
 
  
