@@ -14,15 +14,15 @@
 4. Hvað eru margar global breytur í kóðanum? 
  Tvær, text og sum. 
 
-  5. Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir. 
-  A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). 
+5. Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir. 
+ A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). 
 
- 6. Hver er munurinn á null og undefined í notkun? 
-  Undefined þýðir að það sé búið að declare-a variable en ekki gefa henni value. Null er valur sem er notað til þess að sýna að það sé ekkert object value. Typeof undefiner er undefined en typeof null er object.  
-  Null == undefiner //true en null === undefined //false. 
+6. Hver er munurinn á null og undefined í notkun? 
+ Undefined þýðir að það sé búið að declare-a variable en ekki gefa henni value. Null er valur sem er notað til þess að sýna að það sé ekkert object value. Typeof undefiner er undefined en typeof null er object.  
+ Null == undefiner //true en null === undefined //false. 
 
- 8. Hver er munurinn á for of, forEach og for in lykkju. Komdu með dæmi? 
-  forEach fer í gegnum stök í array. For of??? For in??? 
+8. Hver er munurinn á for of, forEach og for in lykkju. Komdu með dæmi? 
+ forEach fer í gegnum stök í array. For of??? For in??? 
  
 9. Hvað er NaN og afhverju er eftirfarandi false? console.log(NaN == NaN); 
  NaN stendur fyrir "Not a Number" og segir að svarið sé ekki lögleg tala. 
