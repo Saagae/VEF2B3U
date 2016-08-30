@@ -12,7 +12,7 @@
   55, string. 
  
 4. Hvað eru margar global breytur í kóðanum? 
- Tvær, text og sum. 
+ Þrjár, text, sum og i. 
 
 5. Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir. 
  A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). Getur gert error checking auðveldara og látið kóðann keyrast hraðar.
