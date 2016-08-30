@@ -15,8 +15,7 @@
  Tvær, text og sum. 
 
 5. Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir. 
- A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). 
-
+ A skilar "hi" sem alert en B fær error vegna þess að "use strict" er inn í function-inu. Þegar "use strict" er notað þýðir það að execute-a JavaScript kóðann í "strict mode" og það er t.d. ekki hægt að nota undeclared variables (eins og message = "hi", þyrfti að vera var message = "hi"). Getur gert error checking auðveldara og látið kóðann keyrast hraðar.
 6. Hver er munurinn á null og undefined í notkun? 
  Undefined þýðir að það sé búið að declare-a variable en ekki gefa henni value. Null er valur sem er notað til þess að sýna að það sé ekkert object value. Typeof undefiner er undefined en typeof null er object.  
  Null == undefiner //true en null === undefined //false. 
